@@ -3,7 +3,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import Optional, Dict, Any
-import uvicorn
+import uvicorn 
 
 from ocr import image_to_text
 from parser import parse_answers_from_text, parse_answers_from_json
